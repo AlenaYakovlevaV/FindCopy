@@ -85,7 +85,58 @@ h1 {
     background-color: rgb(3, 3, 201);
 }
 
-/* .card:hover {
-    background-color: rgb(3, 3, 201);
-    transition: color, .2s linear;
-} */
+@media screen and (max-width: 1000px) {
+    .container {
+        min-width: 80%;
+    }
+
+    .card {
+        width: 276px;
+        height: 195px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 80%;
+    }
+
+    .card {
+        width: 276px;
+        height: 195px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    .card {
+        width: 338px;
+        height: 338px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 73%;
+    }
+
+    .card {
+        width: 324px;
+        height: 384px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        max-width: 73%;
+    }
+
+    .card {
+        width: 324px;
+        height: 384px;
+    }
+}
