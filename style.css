@@ -132,11 +132,15 @@ h1 {
 
 @media screen and (max-width: 400px) {
     .container {
-        max-width: 92%;
+        width: 65%;
+    }
+
+    .btn {
+        width: 50%;
     }
 
     .card {
-        width: 55px;
+        width: 53px;
         height: 55px;
     }
 }
