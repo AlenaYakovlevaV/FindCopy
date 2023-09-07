@@ -87,56 +87,56 @@ h1 {
 
 @media screen and (max-width: 1000px) {
     .container {
-        min-width: 80%;
+        min-width: 50%;
     }
 
     .card {
-        width: 276px;
-        height: 195px;
+        width: 200px;
+        height: 200px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .container {
-        width: 80%;
+        width: 50%;
     }
 
     .card {
-        width: 276px;
-        height: 195px;
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 95%;
+        width: 70%;
     }
 
     .card {
-        width: 338px;
-        height: 338px;
+        width: 150px;
+        height: 150px;
     }
 }
 
 
 @media screen and (max-width: 450px) {
     .container {
-        max-width: 73%;
+        max-width: 80%;
     }
 
     .card {
-        width: 324px;
-        height: 384px;
+        width: 100px;
+        height: 100px;
     }
 }
 
 @media screen and (max-width: 390px) {
     .container {
-        max-width: 73%;
+        max-width: 92%;
     }
 
     .card {
-        width: 324px;
-        height: 384px;
+        width: 70px;
+        height: 70px;
     }
 }
