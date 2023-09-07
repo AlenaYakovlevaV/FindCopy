@@ -98,7 +98,7 @@ h1 {
 
 @media screen and (max-width: 900px) {
     .container {
-        width: 50%;
+        width: 80%;
     }
 
     .card {
@@ -109,7 +109,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
     .container {
-        width: 70%;
+        width: 80%;
     }
 
     .card {
@@ -121,7 +121,7 @@ h1 {
 
 @media screen and (max-width: 450px) {
     .container {
-        max-width: 80%;
+        max-width: 90%;
     }
 
     .card {
